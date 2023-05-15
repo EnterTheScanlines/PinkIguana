@@ -1,0 +1,121 @@
+@font-face {
+    font-family: rune;
+    src: url(fonts/runenglish/RUNEnglish\ 2.ttf);
+    
+}
+
+@font-face {
+    font-family: rune2;
+    src: url(fonts/rune.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.studio_name{
+    font-family: rune !important;
+    font-size: 100px;
+}
+
+.rune_font_2{
+    position: absolute;
+    left: 47%;
+    top: 250px;
+}
+
+
+.rune_font_2{
+    font-family: rune2;
+    font-size: 60px;
+}
+
+header{
+    text-align: center;
+    margin: 50px 0;
+    padding: 50px;
+}
+
+
+#menu{
+    width: 150px;
+    height: 30px;
+    font-size: 220%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+
+.enlace{
+    position: absolute;
+    text-align: right;
+    padding: 2%;
+    background: rgba(88, 87, 87, 0.5);
+    width: 20%;
+    height: 150%;
+    top: 25%;
+    left: -50%;
+    transition: all 1s;
+    
+}
+
+#check:checked ~ nav .enlace{
+    left: 0;
+}
+
+
+.introduce{
+    height: 600px;
+    padding: 80px;
+    text-align: justifys;
+    font-size: xx-large;
+}
+
+.parraf{
+    padding-top: 150px;
+    font-size: 40px;
+}
+
+#titulo2{
+    font-family: rune !important;
+    font-size: 100px;
+    text-align: center;
+}
+
+#img1{
+    height: auto;
+    width: 350px;
+    margin-right: 20px;
+    float: left;
+}
+
+#box{
+    text-align: center;
+}
+
+.gallery{
+    display: inline-block;
+    margin: 40px 80px;
+}
+
+.img3{
+    height:auto ;
+    width: 200px;
+    margin: 20px;
+    transition: all 300ms;
+}
+
+.img3:hover{
+    transform: scale(1.30);
+}
+
+.foot{
+    color: black;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+}
